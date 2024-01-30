@@ -18,6 +18,7 @@
   "dependencies": {
     "@fullpage/nuxt-fullpage": "^0.2.5",
     "fullpage.js": "^4.0.20",
-    "plyr": "^3.7.8"
+    "plyr": "^3.7.8",
+    "vue-plyr": "^7.0.0"
   }
 }

@@ -3,5 +3,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxt/image",
   '@fullpage/nuxt-fullpage'
+  ],
+  plugins: [
+    { src: '~/plugins/plyr-Vue.js' }
   ]
 })

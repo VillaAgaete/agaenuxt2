@@ -2,8 +2,21 @@
     <div>
         ver working??
     </div>
-    <div>
-        <video ref="video" src="/videoAgaete.mp4" />
+    <div class="container">
+        <vue-plyr :options="options">
+            <video
+                controls
+                crossorigin
+                playsinline
+                data-poster="piscinaNatural1.jpg"
+            >
+                <source
+                size="720"
+                src="/videoAgaete.mp4"
+                type="video/mp4"
+                />
+            </video>
+        </vue-plyr>
     </div>
 </template>
   
@@ -26,5 +39,12 @@
 </script>
 
 <style scoped>
-   
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    video{
+        width: 80vw;
+        height: auto;
+    }
 </style>
