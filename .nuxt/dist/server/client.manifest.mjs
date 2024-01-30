@@ -1,0 +1,1 @@
+export { default } from "file:///D:/Usuarios/emendez/Desktop/Web%20Agaete/Nuxt%20Agaeweb/agaenuxt%20-%20copia/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
