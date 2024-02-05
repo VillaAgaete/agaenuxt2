@@ -14,14 +14,50 @@
         </div>
     </div>
     
+    <!-- Spline BURGER IFRAME  -->
+    <!-- <iframe src='https://my.spline.design/glassburgerv2-5f70d01968ddf07f90e5a6c71d62bb1a/' frameborder='0' width='100%' height='100%'></iframe> -->
+
     <div class="cardsDiv">
+        <div class="cardSurrounding">
+            <div class="card">
+                <NuxtImg class="cardImg" src="/piscinaNatural1.jpg"></NuxtImg>
+            </div>
+        </div>
         <div class="card">
-            <NuxtImg class="cardImg" src="/piscinaNatural1.jpg"></NuxtImg>
+            <NuxtImg class="cardImg" src="/fiesta7.jpg"></NuxtImg>
+        </div>
+        <div class="card">
+            <NuxtImg class="cardImg" src="/valle2.jpg"></NuxtImg>
         </div>
     </div>
+
+    <!-- <div class="videoFrame">
+        <video autoplay="" loop="" id="expert-video" muted="" playsinline="" class="absolute top-0 left-0 object-contain h-full w-full z-0"><source src="/videoAgaete.mp4" type="video/mp4"></video>
+    </div> -->
+
+    <video class="myVideo" autoplay loop id="expert-video" muted playsinline>
+        <source src="/videoAgaete.mp4" type="video/mp4">
+    </video>
+
+
+    <div class="cardsDiv">
+        <div class="cardSurrounding">
+            <div class="card">
+                <NuxtImg class="cardImg" src="/naranjas.jpg"></NuxtImg>
+            </div>
+        </div>
+        <div class="card">
+            <NuxtImg class="cardImg" src="/cafe.jpg"></NuxtImg>
+        </div>
+        <div class="card">
+            <NuxtImg class="cardImg" src="/queso1.jpg"></NuxtImg>
+        </div>
+    </div>
+
 </template>
 <script setup>
 
+    
 </script>
 <style scoped>
     .containerPanel{
@@ -48,7 +84,7 @@
         flex-grow: 2;
     } */
     .centeredTextOne{
-        top: 50%;
+        top: 20%;
         left: 17%;
         transform: translate(-50%, -50%);
 
@@ -65,7 +101,7 @@
         flex-grow: 2;
     } */
     .centeredTextTwo{
-        top: 50%;
+        top: 20%;
         left: 50%;
         transform: translate(-50%, -50%);
 
@@ -82,18 +118,19 @@
         flex-grow: 2;
     } */
     .centeredTextThree{
-        top: 50%;
+        top: 20%;
         left: 83%;
         transform: translate(-50%, -50%);
 
         position: absolute;
+        color: rgb(255, 246, 232);
     }
     .cardsDiv{
         height: 100vh;
-        width: 100vw;
+        max-width: 100vw;
         background-color: antiquewhite;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
     }
     .card{
@@ -111,5 +148,19 @@
         transform: translate(-10px,-10px);
         box-shadow: 10px 10px 10px #ff5700;
     }
+
+    /* .videoFrame{
+        max-width: 100vw;
+        height: auto;
+    } */
+    .myVideo {
+        border: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+        z-index: 0;
+    }
+
     
 </style>

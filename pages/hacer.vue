@@ -2,13 +2,16 @@
     <full-page :options="fullpageOptions">
         <div class="section s1">
             <NuxtImg class="sectionImg1" src="/pueblo.jpg"></NuxtImg></div>
-        <div class="section s2">Some section</div>
-        <div class="section s3">Some section</div>
-        <div class="section s4">Some section</div>
+        <div class="section s2">Descubre Aagete</div>
+        <div class="section s3">Playas y naturaleza</div>
+        <div class="section s4">Comida y alojamiento</div>
     </full-page>
 </template>
   
 <script>
+    definePageMeta({
+        layout: 'no-navbar'
+    })
     /* eslint-disable */
     export default {
         data() {
@@ -38,12 +41,12 @@
 
 
     .sectionImg1{
-        height: 80vh;
+        height: 100vh;
         width: 100vw;
         object-fit: top;
     }    
     .s2{
-        height: 90vh;
+        height: 100vh;
         background: rgb(255, 255, 235);
     }
     .s3{
