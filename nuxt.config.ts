@@ -4,7 +4,4 @@ export default defineNuxtConfig({
   modules: ["@nuxt/image",
   '@fullpage/nuxt-fullpage'
   ],
-  plugins: [
-    { src: '~/plugins/plyr-Vue.js' }
-  ]
-})
+ })

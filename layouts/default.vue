@@ -7,11 +7,11 @@
     </div>
     <nav>
       <ul class="nav-links">
-        <li><NuxtLink to="/ver">Qué ver</NuxtLink></li>
-        <li><NuxtLink to="/hacer">Qué hacer</NuxtLink></li>
+        <li><NuxtLink to="/ver">Alojamiento</NuxtLink></li>
+        <li><NuxtLink to="/hacer">Gastronomía</NuxtLink></li>
       </ul>
     </nav>
-    <a href="#" class="btn"><button>Eventos</button></a>
+    <a href="#" class="btn"><button><NuxtLink to="/hacer">Actividades</NuxtLink></button></a>
   </header>
   <div>
       <slot />
@@ -33,6 +33,9 @@
 }
 body{
   background-color: #fff59d;
+}
+a{
+  text-decoration: none;
 }
 .header{
   background-color: #a3adb1;

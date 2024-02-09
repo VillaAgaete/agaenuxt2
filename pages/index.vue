@@ -1,65 +1,42 @@
 <template>
     <div class="containerPanel">
+        
         <div class="panelOne">
-            <NuxtImg class="panelImg" src="/valle2.jpg"></NuxtImg>
-            <div class="centeredTextOne">Playas y piscinas naturales</div>
+            <NuxtLink to="/costa">
+                <NuxtImg class="panelImg" src="/piscinaNatural1.webp"></NuxtImg>
+            </NuxtLink>
+            <div class="centeredTextOne"><h3>Costa</h3></div>
         </div>
         <div class="panelTwo">
-            <NuxtImg class="panelImg" src="/pueblo.jpg"></NuxtImg>
-            <div class="centeredTextTwo">Agaete</div>
+            <NuxtLink to="/costa">
+                <NuxtImg class="panelImg" src="/pueblo.webp"></NuxtImg>
+            </NuxtLink>
+            <div class="centeredTextTwo"><h3>Agaete</h3></div>
         </div>
         <div class="panelThree">
-            <NuxtImg class="panelImg" src="/fireworks.jpg"></NuxtImg>
-            <div class="centeredTextThree">Actividades</div>
-        </div>
-    </div>
-    
-    <!-- Spline BURGER IFRAME  -->
-    <!-- <iframe src='https://my.spline.design/glassburgerv2-5f70d01968ddf07f90e5a6c71d62bb1a/' frameborder='0' width='100%' height='100%'></iframe> -->
-
-    <div class="cardsDiv">
-        <div class="cardSurrounding">
-            <div class="card">
-                <NuxtImg class="cardImg" src="/piscinaNatural1.jpg"></NuxtImg>
-            </div>
-        </div>
-        <div class="card">
-            <NuxtImg class="cardImg" src="/fiesta7.jpg"></NuxtImg>
-        </div>
-        <div class="card">
-            <NuxtImg class="cardImg" src="/valle2.jpg"></NuxtImg>
+            <NuxtLink to="/interior">
+                <NuxtImg class="panelImg" src="/valle2.webp"></NuxtImg>
+            </NuxtLink>
+            <div class="centeredTextThree"><h3>Interior</h3></div>
         </div>
     </div>
 
-    <!-- <div class="videoFrame">
-        <video autoplay="" loop="" id="expert-video" muted="" playsinline="" class="absolute top-0 left-0 object-contain h-full w-full z-0"><source src="/videoAgaete.mp4" type="video/mp4"></video>
-    </div> -->
+    <MiniCard />
 
-    <video class="myVideo" autoplay loop id="expert-video" muted playsinline>
+    <!-- <video class="myVideo" autoplay loop id="expert-video" muted playsinline>
         <source src="/videoAgaete.mp4" type="video/mp4">
-    </video>
+    </video> -->
 
-
-    <div class="cardsDiv">
-        <div class="cardSurrounding">
-            <div class="card">
-                <NuxtImg class="cardImg" src="/naranjas.jpg"></NuxtImg>
-            </div>
-        </div>
-        <div class="card">
-            <NuxtImg class="cardImg" src="/cafe.jpg"></NuxtImg>
-        </div>
-        <div class="card">
-            <NuxtImg class="cardImg" src="/queso1.jpg"></NuxtImg>
-        </div>
-    </div>
+    <MiniCard2 />
+    <BigCard />
 
 </template>
 <script setup>
-
-    
 </script>
 <style scoped>
+    h3{
+        font-weight: 300;
+    }
     .containerPanel{
         background-color: aquamarine;
         max-width: 100vw;
@@ -80,9 +57,9 @@
 
         transition: all 0.3s;
     }
-    /* .panelOne:hover{
-        flex-grow: 2;
-    } */
+    .panelOne:hover .panelImg:hover{
+        filter: brightness(105%);
+    }
     .centeredTextOne{
         top: 20%;
         left: 17%;
@@ -97,9 +74,9 @@
         
         transition: all 0.3s;
     }
-    /* .panelTwo:hover{
-        flex-grow: 2;
-    } */
+    .panelTwo:hover .panelImg:hover{
+        filter: drop-shadow(8px 8px 10px gray);
+    }
     .centeredTextTwo{
         top: 20%;
         left: 50%;
@@ -114,9 +91,9 @@
         
         transition: all 0.3s;
     }
-    /* .panelThree:hover{
-        flex-grow: 2;
-    } */
+    .panelThree:hover .panelImg:hover{
+        filter: opacity(95%);
+    }
     .centeredTextThree{
         top: 20%;
         left: 83%;
@@ -125,30 +102,6 @@
         position: absolute;
         color: rgb(255, 246, 232);
     }
-    .cardsDiv{
-        height: 100vh;
-        max-width: 100vw;
-        background-color: antiquewhite;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    .card{
-        height: 45vh;
-        width: 20vw;
-    }
-    .cardImg{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border-radius: 20px;
-        transition: all .2s;
-    }
-    .cardImg:hover{
-        transform: translate(-10px,-10px);
-        box-shadow: 10px 10px 10px #ff5700;
-    }
-
     /* .videoFrame{
         max-width: 100vw;
         height: auto;
