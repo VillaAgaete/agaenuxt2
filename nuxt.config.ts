@@ -4,4 +4,7 @@ export default defineNuxtConfig({
   modules: ["@nuxt/image",
   '@fullpage/nuxt-fullpage'
   ],
+  image: {
+    quality: "100",
+  }
  })
