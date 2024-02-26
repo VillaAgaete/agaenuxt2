@@ -7,8 +7,9 @@
     </div>
     <nav>
       <ul class="nav-links">
-        <li><NuxtLink to="/ver">Alojamiento</NuxtLink></li>
-        <li><NuxtLink to="/hacer">Gastronomía</NuxtLink></li>
+        <li><NuxtLink to="/ver">Costa</NuxtLink></li>
+        <li><NuxtLink to="/hacer">Agaete</NuxtLink></li>
+        <li><NuxtLink to="/hacer">Interior</NuxtLink></li>
       </ul>
     </nav>
     <a href="#" class="btn"><button><NuxtLink to="/hacer">Actividades</NuxtLink></button></a>
@@ -43,7 +44,7 @@ a{
   justify-content: flex-end;
   align-items: center;
   height: 10vh;
-  padding: 5px 10%;
+  padding: 5px 5%;
 }
 .header .logo{
   cursor: pointer;
@@ -62,7 +63,7 @@ a{
 }
 .header .nav-links li{
   display: inline-block;
-  padding: 0 20px;
+  padding: 0 15px;
 }
 .header .nav-links li:hover{
   transform: scale(1.1);

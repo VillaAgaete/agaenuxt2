@@ -2,6 +2,7 @@
     <div>
         COSTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
     </div>
+    <BigCard />
 </template>
 <script>
 

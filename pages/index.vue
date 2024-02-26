@@ -20,12 +20,6 @@
             <div class="centeredTextThree"><h3>Interior</h3></div>
         </div>
     </div>
-    <!-- <div id="map">
-        <component is="script">
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAo3ZaPWqtswfqZ5xAoBz6Nyrk9pW6NwWs&map_ids=a9dea733df81e446&callback=initMap"
-            defer
-        </component>
-    </div> -->
     <MiniCard />
 
     <!-- <video class="myVideo" autoplay loop id="expert-video" muted playsinline>
@@ -37,41 +31,6 @@
 
 </template>
 <script>
-// function initMap() {
-//     var map = new google.maps.Map(document.getElementById('map'), {
-//         center: {lat: 28.099093, lng: -15.698951},  // Posición inicial del mapa
-//         zoom: 4,
-//         mapId: a9dea733df81e446
-//     });
-
-//     var marker = new google.maps.Marker({
-//         position: {lat: 28.099093, lng: -15.698951},  // Posición del marcador
-//         map,
-//         title: "DEDO DE DIOS",
-//         icon: {
-//         url: '/dedo_dios_contorno.svg',
-//         scaledSize: new google.maps.Size(38, 31)
-//     }
-//     });
-
-//     var infowindow = new google.maps.InfoWindow({
-//         content: '<div id="content">'+
-//         '<div id="siteNotice">'+
-//         '</div>'+
-//         '<h1 id="firstHeading" class="firstHeading">Uluru</h1>'+
-//         '<div id="bodyContent">'+
-//         '<p><b>Uluru</b>, also referred to as <b>Ayers Rock</b>, is a large ' +
-//         'sandstone rock formation in the southern part of the '+
-//         'Northern Territory, central Australia.</p>'+
-//         '</div>'+
-//         '</div>'
-//     });
-
-//     marker.addListener('click', function() {
-//         infowindow.open(map, marker);
-//     });
-// }
-
 </script>
 <style scoped>
     #map {

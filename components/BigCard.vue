@@ -9,7 +9,7 @@
                         at autem veniam voluptates nemo iusto laudantium 
                         labore quos optio error natus saepe! Aliquam, vero!</p>
             </div>
-            <NuxtImg class="cardImg" src="/fireworks.webp"></NuxtImg>
+            <NuxtImg class="cardImg" src="/nieves.webp"></NuxtImg>
         </div>
     </div>
     <div class="cardsDiv">

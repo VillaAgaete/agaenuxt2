@@ -1,18 +1,18 @@
 <template>
     <div class="cardsDiv">
-        <div class="cardSurrounding"><h2>Gastronomía</h2>
+        <div class="cardSurrounding"><h2>Gastronomía/comida local</h2>
             <div class="card">
-                <NuxtImg class="cardImg" src="/fireworks.webp"></NuxtImg>
+                <NuxtImg class="cardImg" src="/queso1.webp"></NuxtImg>
             </div>
         </div>
-        <div class="cardSurrounding"><h2>Senderos y rutas</h2>
+        <div class="cardSurrounding"><h2>Tradición</h2>
             <div class="card">
                 <NuxtImg class="cardImg" src="/fiesta7.webp"></NuxtImg>
             </div>
         </div>
-        <div class="cardSurrounding"><h2>Alojamientos</h2>
+        <div class="cardSurrounding"><h2>Senderos y rutas</h2>
             <div class="card">
-                <NuxtImg class="cardImg" src="/nieves3.webp"></NuxtImg>
+                <NuxtImg class="cardImg" src="/naranjas.webp"></NuxtImg>
             </div>
         </div>
     </div>

@@ -2,7 +2,7 @@
     <div class="cardsDiv">
         <div class="cardSurrounding"><h2>Eventos</h2>
             <div class="card">
-                <NuxtImg class="cardImg" src="/naranjas.webp"></NuxtImg>
+                <NuxtImg class="cardImg" src="/nieves3.webp"></NuxtImg>
             </div>
         </div>
         <div class="cardSurrounding"><h2>Eventos</h2>
@@ -12,7 +12,7 @@
         </div>
         <div class="cardSurrounding"><h2>Eventos</h2>
             <div class="card">
-                <NuxtImg class="cardImg" src="/queso1.webp"></NuxtImg>
+                <NuxtImg class="cardImg" src="/fireworks.webp"></NuxtImg>
             </div>
         </div>
     </div>
