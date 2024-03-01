@@ -2,12 +2,12 @@
     <div class="cardsDiv">
         <div class="card">
             <div class="textInCard">
-                <h2>Playa de las Nieves</h2>
+                <h2>Las Nieves</h2>
                 <p>Lorem ipsum dolor sit amet consectetur,
-                        adipisicing elit. Eveniet praesentium,
-                        facere pariatur reprehenderit nostrum maxime 
-                        at autem veniam voluptates nemo iusto laudantium 
-                        labore quos optio error natus saepe! Aliquam, vero!</p>
+                    adipisicing elit. Eveniet praesentium,
+                    facere pariatur reprehenderit nostrum maxime 
+                    at autem veniam voluptates nemo iusto laudantium 
+                    labore quos optio error natus saepe! Aliquam, vero!</p>
             </div>
             <NuxtImg class="cardImg" src="/nieves.webp"></NuxtImg>
         </div>
@@ -15,12 +15,12 @@
     <div class="cardsDiv">
         <div class="card">
             <div class="textInCard">
-                <h2>Playa del Risco</h2>
+                <h2>El Risco</h2>
                 <p>Lorem ipsum dolor sit amet consectetur,
-                        adipisicing elit. Eveniet praesentium,
-                        facere pariatur reprehenderit nostrum maxime 
-                        at autem veniam voluptates nemo iusto laudantium 
-                        labore quos optio error natus saepe! Aliquam, vero!</p>
+                    adipisicing elit. Eveniet praesentium,
+                    facere pariatur reprehenderit nostrum maxime 
+                    at autem veniam voluptates nemo iusto laudantium 
+                    labore quos optio error natus saepe! Aliquam, vero!</p>
             </div>
             <NuxtImg class="cardImg" src="/playaRisco.webp"></NuxtImg>
         </div>

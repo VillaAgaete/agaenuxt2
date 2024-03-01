@@ -7,12 +7,12 @@
     </div>
     <nav>
       <ul class="nav-links">
-        <li><NuxtLink to="/ver">Costa</NuxtLink></li>
-        <li><NuxtLink to="/hacer">Agaete</NuxtLink></li>
-        <li><NuxtLink to="/hacer">Interior</NuxtLink></li>
+        <li><NuxtLink to="/costa">Costa</NuxtLink></li>
+        <li><NuxtLink to="/agaete">Agaete</NuxtLink></li>
+        <li><NuxtLink to="/interior">Interior</NuxtLink></li>
       </ul>
     </nav>
-    <a href="#" class="btn"><button><NuxtLink to="/hacer">Actividades</NuxtLink></button></a>
+    <a href="#" class="btn"><button><NuxtLink to="/actividades">Actividades</NuxtLink></button></a>
   </header>
   <div>
       <slot />

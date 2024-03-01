@@ -8,7 +8,7 @@
             <div class="centeredTextOne"><h3>Costa</h3></div>
         </div>
         <div class="panelTwo">
-            <NuxtLink to="/costa">
+            <NuxtLink to="/agaete">
                 <NuxtImg class="panelImg" src="/pueblo.webp"></NuxtImg>
             </NuxtLink>
             <div class="centeredTextTwo"><h3>Agaete</h3></div>
