@@ -20,6 +20,7 @@
             <div class="centeredTextThree"><h3>Interior</h3></div>
         </div>
     </div>
+    <BentoCards />
     <MiniCard />
 
     <!-- <video class="myVideo" autoplay loop id="expert-video" muted playsinline>
