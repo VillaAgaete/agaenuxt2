@@ -3,6 +3,7 @@ declare module 'vue' {
   export interface GlobalComponents {
     'BentoCards': typeof import("../components/BentoCards.vue")['default']
     'BigCard': typeof import("../components/BigCard.vue")['default']
+    'ExpandCard': typeof import("../components/ExpandCard.vue")['default']
     'MiniCard': typeof import("../components/MiniCard.vue")['default']
     'MiniCard2': typeof import("../components/MiniCard2.vue")['default']
     'NuxtWelcome': typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
@@ -27,6 +28,7 @@ declare module 'vue' {
     'Body': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
     'LazyBentoCards': typeof import("../components/BentoCards.vue")['default']
     'LazyBigCard': typeof import("../components/BigCard.vue")['default']
+    'LazyExpandCard': typeof import("../components/ExpandCard.vue")['default']
     'LazyMiniCard': typeof import("../components/MiniCard.vue")['default']
     'LazyMiniCard2': typeof import("../components/MiniCard2.vue")['default']
     'LazyNuxtWelcome': typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
@@ -54,6 +56,7 @@ declare module 'vue' {
 
 export const BentoCards: typeof import("../components/BentoCards.vue")['default']
 export const BigCard: typeof import("../components/BigCard.vue")['default']
+export const ExpandCard: typeof import("../components/ExpandCard.vue")['default']
 export const MiniCard: typeof import("../components/MiniCard.vue")['default']
 export const MiniCard2: typeof import("../components/MiniCard2.vue")['default']
 export const NuxtWelcome: typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
@@ -78,6 +81,7 @@ export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const LazyBentoCards: typeof import("../components/BentoCards.vue")['default']
 export const LazyBigCard: typeof import("../components/BigCard.vue")['default']
+export const LazyExpandCard: typeof import("../components/ExpandCard.vue")['default']
 export const LazyMiniCard: typeof import("../components/MiniCard.vue")['default']
 export const LazyMiniCard2: typeof import("../components/MiniCard2.vue")['default']
 export const LazyNuxtWelcome: typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']

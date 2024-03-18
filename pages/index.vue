@@ -20,7 +20,8 @@
             <div class="centeredTextThree"><h3>Interior</h3></div>
         </div>
     </div>
-    <BentoCards />
+    <!-- <BentoCards /> -->
+    <!-- <ExpandCard /> -->
     <MiniCard />
 
     <!-- <video class="myVideo" autoplay loop id="expert-video" muted playsinline>
@@ -32,6 +33,8 @@
 
 </template>
 <script>
+import ExpandCard from '~/components/ExpandCard.vue';
+
 </script>
 <style scoped>
     #map {
