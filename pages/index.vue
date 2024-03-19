@@ -25,7 +25,7 @@
     <MiniCard />
 
     <!-- <video class="myVideo" autoplay loop id="expert-video" muted playsinline>
-        <source src="/videoAgaete.mp4" type="video/mp4">
+        <source src="/video_ecohuerto_agaete.mp4" type="video/mp4">
     </video> -->
 
     <MiniCard2 />
@@ -33,7 +33,6 @@
 
 </template>
 <script>
-import ExpandCard from '~/components/ExpandCard.vue';
 
 </script>
 <style scoped>
@@ -105,18 +104,11 @@ import ExpandCard from '~/components/ExpandCard.vue';
         position: absolute;
         color: rgb(255, 246, 232);
     }
-    /* .videoFrame{
-        max-width: 100vw;
-        height: auto;
-    } */
     .myVideo {
         border: 0;
         margin: 0;
         height: 100%;
         width: 100%;
         object-fit: contain;
-        z-index: 0;
-    }
-
-    
+    }  
 </style>

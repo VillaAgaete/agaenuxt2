@@ -26,7 +26,7 @@
     .cardsDiv{
         height: 70vh;
         max-width: 100vw;
-        background-color: rgb(240, 237, 237);
+        background-color: rgb(255, 255, 255);
         display: flex;
         justify-content: space-around;
         align-items: center;

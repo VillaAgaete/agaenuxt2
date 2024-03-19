@@ -39,6 +39,8 @@ a{
   text-decoration: none;
 }
 .header{
+  position: sticky;
+  width: 100%;
   background-color: #a3adb1;
   display: flex;
   justify-content: flex-end;
