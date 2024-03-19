@@ -1,5 +1,8 @@
 <template>
-    <div>
+    <div class="container">
+        
+    </div>
+    <!-- <div>
         INTERIORR// RUTAS Y NATURALEZA? PAISAJES?
     </div>
     <div>
@@ -7,10 +10,9 @@
     </div>
     <div>
         <NuxtLink to="/interior/senderismo">Senderismo</NuxtLink>
-    </div>
+    </div> -->
 </template>
 <script>
-
 </script>
 <style>
     

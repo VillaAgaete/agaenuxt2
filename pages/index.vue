@@ -45,9 +45,8 @@ import ExpandCard from '~/components/ExpandCard.vue';
         font-weight: 300;
     }
     .containerPanel{
-        background-color: aquamarine;
         max-width: 100vw;
-        height: 75vh;
+        height: 90vh;
         display: flex;
         justify-content: center;
         flex-wrap: nowrap;
@@ -59,7 +58,6 @@ import ExpandCard from '~/components/ExpandCard.vue';
     }
     .panelOne{
         width: 33%;
-        background-color: antiquewhite;
         flex-grow: 1;
 
         transition: all 0.3s;
@@ -76,7 +74,6 @@ import ExpandCard from '~/components/ExpandCard.vue';
     }
     .panelTwo{
         width: 33%;
-        background-color: rgb(252, 194, 118);
         flex-grow: 1;
         
         transition: all 0.3s;
@@ -93,7 +90,6 @@ import ExpandCard from '~/components/ExpandCard.vue';
     }
     .panelThree{
         width: 33%;
-        background-color: rgb(243, 250, 140);
         flex-grow: 1;
         
         transition: all 0.3s;
