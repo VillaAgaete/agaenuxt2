@@ -8,6 +8,8 @@
         </video>
     </div>
     <MiniCard />
+    <ShadowCard />
+    <Carousel />
     <!-- <div>
         INTERIORR// RUTAS Y NATURALEZA? PAISAJES?
     </div>
