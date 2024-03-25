@@ -7,9 +7,10 @@
             <source src="/video_ecohuerto_agaete.mp4" type="video/mp4">
         </video>
     </div>
+    <BWToColor />
     <MiniCard />
     <ShadowCard />
-    <Carousel />
+    <!-- <Carousel /> -->
     <!-- <div>
         INTERIORR// RUTAS Y NATURALEZA? PAISAJES?
     </div>
@@ -21,22 +22,27 @@
     </div> -->
 </template>
 <script>
-    import MiniCard from '/_nuxt/components/MiniCard.vue';
+    import BWToColor from '~/components/BWToColor.vue';
+import MiniCard from '/_nuxt/components/MiniCard.vue';
 </script>
 <style>
     .agaeteTitle{
-        height: 15vh;
+        margin: 0;
+        padding: 0;
     }
     .textTitle{
+        margin: 0;
+        padding-top: 5rem;
         font-size: 60px;
         font-weight: 900;
         text-align: center;
     }
     .container{
+        padding: 5rem;
         display: flex;
         justify-content: center;
         max-width: 100vw;
-        height: 90vh;
+        max-height: 90vh;
     }
     .myVideo{
         height: 100%;
