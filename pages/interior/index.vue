@@ -1,13 +1,13 @@
 <template>
     <div class="agaeteTitle">
-        <h1 class="textTitle">Welcome to Agaete</h1>
+        <h1 class="textTitle">Conoce Agaete</h1>
     </div>
     <div class="container">
         <video class="myVideo" autoplay loop muted playsinline>
             <source src="/video_ecohuerto_agaete.mp4" type="video/mp4">
         </video>
     </div>
-    <BWToColor />
+    <!-- <BWToColor /> -->
     <MiniCard />
     <ShadowCard />
     <!-- <Carousel /> -->
@@ -23,7 +23,7 @@
 </template>
 <script>
     import BWToColor from '~/components/BWToColor.vue';
-import MiniCard from '/_nuxt/components/MiniCard.vue';
+    import MiniCard from '/_nuxt/components/MiniCard.vue';
 </script>
 <style>
     .agaeteTitle{
@@ -33,16 +33,17 @@ import MiniCard from '/_nuxt/components/MiniCard.vue';
     .textTitle{
         margin: 0;
         padding-top: 5rem;
-        font-size: 60px;
+        padding-bottom: 3rem;
+        font-size: 2.5rem;
         font-weight: 900;
         text-align: center;
     }
     .container{
-        padding: 5rem;
         display: flex;
         justify-content: center;
         max-width: 100vw;
         max-height: 90vh;
+        margin-bottom: 10rem;
     }
     .myVideo{
         height: 100%;

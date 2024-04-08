@@ -41,7 +41,6 @@ a{
 .header{
   position: sticky;
   width: 100%;
-  background-color: #a3adb1;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -72,11 +71,11 @@ a{
 }
 .header .nav-links a{
   font-size: 700;
-  color: aliceblue;
+  color: rgb(59, 59, 59);
   text-decoration: none;
 }
 .header .nav-links a:hover{
-  color: rgb(136, 194, 245);
+  color: rgb(58, 64, 150);
 }
 .header .btn button{
   font-weight: 700;

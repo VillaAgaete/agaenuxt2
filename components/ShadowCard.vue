@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="cardSurrounding">
-            <h2>Gastronomía/comida local</h2>
+            <p>Gastronomía/comida local</p>
             <div class="card">
                 <NuxtImg class="cardImg" src="/queso1.webp"></NuxtImg>
             </div>
@@ -11,12 +11,26 @@
 <script>
 </script>
 <style scoped>
-    .container{
-        background-color: rgb(255, 247, 236);
+    p{
+        text-align: center;
     }
-    .card{
+    .cardsDiv{
+        min-height: 60vh;
+        max-width: 100%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .cardSurrounding{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{        
         height: 45vh;
-        width: 20vw;
+        width: 20rem;
     }
     .cardImg{
         width: 100%;

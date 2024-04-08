@@ -1,16 +1,19 @@
 <template>
     <div class="cardsDiv">
-        <div class="cardSurrounding"><h2>Gastronomía/comida local</h2>
+        <div class="cardSurrounding">
+            <p>Gastronomía/comida local</p>
             <div class="card">
                 <NuxtImg class="cardImg" src="/queso1.webp"></NuxtImg>
             </div>
         </div>
-        <div class="cardSurrounding"><h2>Tradición</h2>
+        <div class="cardSurrounding">
+            <p>Tradición</p>
             <div class="card">
                 <NuxtImg class="cardImg" src="/fiesta7.webp"></NuxtImg>
             </div>
         </div>
-        <div class="cardSurrounding"><h2>Senderos y rutas</h2>
+        <div class="cardSurrounding">
+            <p>Senderos y rutas</p>
             <div class="card">
                 <NuxtImg class="cardImg" src="/naranjas.webp"></NuxtImg>
             </div>
@@ -20,20 +23,26 @@
 <script>
 </script>
 <style scoped>
-    h2{
+    p{
         text-align: center;
     }
     .cardsDiv{
-        height: 70vh;
-        max-width: 100vw;
+        min-height: 60vh;
+        max-width: 100%;
         background-color: rgb(255, 255, 255);
         display: flex;
         justify-content: space-around;
         align-items: center;
+        flex-wrap: wrap;
     }
-    .card{
+    .cardSurrounding{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{        
         height: 45vh;
-        width: 20vw;
+        width: 20rem;
     }
     .cardImg{
         width: 100%;

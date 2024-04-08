@@ -1,19 +1,19 @@
 <template>
     <div class="containerPanel">
         
-        <div class="panelOne">
+        <div class="panel">
             <NuxtLink to="/costa">
                 <NuxtImg class="panelImg" src="/piscinaNatural1.webp"></NuxtImg>
             </NuxtLink>
             <div class="centeredTextOne"><h3>Costa</h3></div>
         </div>
-        <div class="panelTwo">
+        <div class="panel">
             <NuxtLink to="/agaete">
                 <NuxtImg class="panelImg" src="/pueblo.webp"></NuxtImg>
             </NuxtLink>
             <div class="centeredTextTwo"><h3>Agaete</h3></div>
         </div>
-        <div class="panelThree">
+        <div class="panel">
             <NuxtLink to="/interior">
                 <NuxtImg class="panelImg" src="/valle2.webp"></NuxtImg>
             </NuxtLink>
@@ -55,13 +55,11 @@
         height: 100%;
         object-fit: cover;
     }
-    .panelOne{
+    .panel{
         width: 33%;
-        flex-grow: 1;
-
         transition: all 0.3s;
     }
-    .panelOne:hover .panelImg:hover{
+    .panel:hover .panelImg:hover{
         filter: brightness(105%);
     }
     .centeredTextOne{
@@ -71,30 +69,12 @@
 
         position: absolute;
     }
-    .panelTwo{
-        width: 33%;
-        flex-grow: 1;
-        
-        transition: all 0.3s;
-    }
-    .panelTwo:hover .panelImg:hover{
-        filter: drop-shadow(8px 8px 10px gray);
-    }
     .centeredTextTwo{
         top: 20%;
         left: 50%;
         transform: translate(-50%, -50%);
 
         position: absolute;
-    }
-    .panelThree{
-        width: 33%;
-        flex-grow: 1;
-        
-        transition: all 0.3s;
-    }
-    .panelThree:hover .panelImg:hover{
-        filter: opacity(95%);
     }
     .centeredTextThree{
         top: 20%;
